@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.all-counters{
+    margin: 5rem auto;
+    width: 100%;
+    position: relative;
+}
+
+.counter{
+    margin: 2rem auto;
+    width: 50%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.counter-form{
+    justify-content: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    border: 1px solid rgb(211, 204, 204);
+}
+
+.new-counters{
+    position: absolute;
+    right: 33%;
+}
